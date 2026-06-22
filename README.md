@@ -29,14 +29,14 @@ The Sakana Fugu desktop application provides a convenient graphical interface fo
 ### Method 1: Windows (`.exe`)
 
 1. Go to the [**Releases**](../../releases) section on this repository's page.
-2. Download the latest version of the installer: `Sakana-Fugux64.7z`.
+2. Download the latest version of the installer: `Sakana-Fugu-x64.7z`.
 3. Run the file and follow the installation wizard instructions.
 4. Once completed, launch the application from your desktop.
 
 ### Method 2: macOS (`.dmg`)
 
 1. Go to the [**Releases**](../../releases) section and download the version for your architecture:
-* `Sakana-Fugu-macOS-Silicon.dmg` (for Apple M processors)
+* `Sakana-Fugu-macOS.dmg` (for Apple M processors)
 
 
 2. Open the downloaded `.dmg` file and drag the **Sakana Fugu** icon into the **Applications** folder.
